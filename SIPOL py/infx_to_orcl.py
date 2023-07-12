@@ -8,6 +8,7 @@ cx_Oracle.init_oracle_client(lib_dir=r"C:\oracle\instantclient_19_19")
 
 # Conn with infx
 conn_informix = pyodbc.connect("DRIVER=IBM INFORMIX ODBC DRIVER (64-bit);"
+                               #your connection 
                                
                                )
 
@@ -30,7 +31,7 @@ while True:
 
     # Conn with orcl
     oracle_conn = cx_Oracle.connect(
-      
+      #your connection
     )
 
     # query to obtain the data to be compared 
